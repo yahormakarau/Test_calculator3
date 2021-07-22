@@ -7,8 +7,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        float n1 = Float.parseFloat(sc.next());
-        float n2 = Float.parseFloat(sc.next());
+        int n1 = Integer.parseInt(sc.next());
+        int n2 = Integer.parseInt(sc.next());
 
         Calculator calculator = new Calculator(n1, n2);
 

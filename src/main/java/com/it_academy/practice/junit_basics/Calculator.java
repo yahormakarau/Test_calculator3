@@ -2,10 +2,10 @@ package com.it_academy.practice.junit_basics;
 
 public class Calculator {
 
-    private float a;
-    private float b;
+    private int a;
+    private int b;
 
-    public Calculator(float a, float b) {
+    public Calculator(int a, int b) {
         this.a = a;
         this.b = b;
     }
@@ -14,7 +14,7 @@ public class Calculator {
         return a;
     }
 
-    public void setA(float a) {
+    public void setA(int a) {
         this.a = a;
     }
 
@@ -22,7 +22,7 @@ public class Calculator {
         return b;
     }
 
-    public void setB(float b) {
+    public void setB(int b) {
         this.b = b;
     }
 
